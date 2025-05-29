@@ -1,0 +1,17 @@
+# Images
+images
+
+# Binary files
+rust_basics/src/vectors
+
+# Target
+bitwise_calc/target
+rust_basics/target
+
+# Cheat sheets
+github.md
+gitignore.md
+markdown.md
+
+# Templates
+template.md
