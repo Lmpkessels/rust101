@@ -1,7 +1,8 @@
 # Rust101
 
-Rust101 is a hands-on learning project for mastering Rust and foundational computer science concepts.
-Inspired by systems-level programming and deep logic, this repo is built for serious learners.
+Rust101 is my public sandbox for learning Rust and foundational computer science.
+I use it to test ideas, break things, and think out loud.
+If it looks messy — good. That’s how I learn.
 
 ## 📦 Requirements
 
