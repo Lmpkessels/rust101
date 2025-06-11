@@ -7,11 +7,21 @@ rust_basics/src/vectors
 # Target
 bitwise_calc/target
 rust_basics/target
+core_rust_7/target
+address_book/target
 
 # Cheat sheets
 github.md
 gitignore.md
 markdown.md
+comments.md
+deepening.md
 
 # Templates
 template.md
+
+# Scratch pad
+scratch.rs
+
+# Practice folders
+core_rust_7
