@@ -3,6 +3,12 @@ images
 
 # Binary files
 rust_basics/src/vectors
+address_book/src/vector_01
+address_book/src/new_draft 
+address_book/src/second_draft
+address_book/src/tempCodeRunnerFile 
+address_book/src/tempCodeRunnerFile.rs
+
 
 # Target
 bitwise_calc/target
@@ -16,12 +22,14 @@ gitignore.md
 markdown.md
 comments.md
 deepening.md
+hashmap.md
 
 # Templates
 template.md
 
 # Scratch pad
 scratch.rs
+brainstorm.md
 
 # Practice folders
 core_rust_7
