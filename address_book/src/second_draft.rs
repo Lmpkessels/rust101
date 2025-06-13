@@ -20,10 +20,9 @@ fn main() {
     create_contact(&mut contacts, "anja", "kessels", "anja@test123.com", 
     "+31600000000");
 
-    find_contact(&mut contacts, "luuk");
-
-    // Check if contacts has become the desired outcome
-    println!("{:?}", contacts);
+    // Check if finding contacts is possible
+    find_contact(&mut contacts, "koen");
+    find_contact(&mut contacts, "johan");    
 }
 
 // Structure for Contact, with key + value type string
@@ -51,6 +50,14 @@ fn create_contact(store: &mut HashMap<String, ContactInfo>, name: &str,
 }
 
 fn find_contact(store: &mut HashMap<String, ContactInfo>, name: &str) {
-    // TODO: Create logic so once name is typed in key-value is found and returned
-}
+    // Access key and value in HashMap
+    for (key, value) in store {
+        // Check if Key is equal to name
+        // Use .to_string() to match the datatype of the key in HashMap
+        // Use dereferencing (*) to access value the pointer points to
+        if name.to_string() == *key {
+            println!("{:?}", value)
+        } 
+    } 
+} 
 
