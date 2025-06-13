@@ -6,7 +6,7 @@ Rust101 is a public sandbox for learning Rust and foundational computer science.
 
 - Test ideas
 - Break things
-- And think out loud.
+- And think out loud
 
 ## 📦 Requirements
 
